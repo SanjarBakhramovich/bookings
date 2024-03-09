@@ -1,14 +1,16 @@
 package main
 
 import (
-	"bookings-udemy/pkg/config"
-	"bookings-udemy/pkg/handlers"
-	"bookings-udemy/pkg/render"
 	"fmt"
-	"github.com/alexedwards/scs/v2"
 	"log"
 	"net/http"
 	"time"
+
+	"github.com/SanjarBakhramovich/bookings/pkg/config"
+
+	"github.com/SanjarBakhramovich/bookings/pkg/handlers"
+	"github.com/SanjarBakhramovich/bookings/pkg/render"
+	"github.com/alexedwards/scs/v2"
 )
 
 const portNumber = ":8080"

@@ -1,10 +1,11 @@
 package handlers
 
 import (
-	"bookings-udemy/pkg/config"
-	"bookings-udemy/pkg/models"
-	"bookings-udemy/pkg/render"
 	"net/http"
+
+	"github.com/SanjarBakhramovich/bookings/pkg/config"
+	"github.com/SanjarBakhramovich/bookings/pkg/models"
+	"github.com/SanjarBakhramovich/bookings/pkg/render"
 )
 
 // Repo the repository used by the handlers
